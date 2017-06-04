@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
+<script type="text/javascript" src="script/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="script/creatGrille.js"></script>
+  <title>my_2048</title>
+</head>
+<body>
+
+<div>
+  <h1 class="color">2048</h1>
+  <div id="score"></div>
+  <div id="bestScore"></div>
+  <div id="countTouched"></div>
+  <select id="selectColor" onchange="displayGrille(4, grille);">
+    <option value="120" id="green" selected>green</option>
+    <option value="180" id="blue">blue</option>
+    <option value="300" id="pink">pink</option>
+    <option value="24" id="orange">orange</option>
+    <option value="60" id="yellow">yellow</option>
+  </select>
+  <div id=newGame>NEW GAME</div>
+  <div id="winLoose" class="color"></div>  
+</div>
+  <div class="arrow-up"></div>
+  <div class="contenaire_contenaire">
+  <div class="arrow-left"></div>
+  <div class="grille_contenaire">      
+  </div>
+  <div class="arrow-right"></div>
+  </div>
+  <div class="arrow-down"></div>
+  <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
